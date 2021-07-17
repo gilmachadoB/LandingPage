@@ -1,0 +1,171 @@
+body {
+  background-color: #f0efeb;
+  font-family: "Quicksand", sans-serif;
+  padding: 0%;
+  margin: 0%;
+}
+
+.navbar {
+  background-color: #9ab5cc;
+  width: 100%;
+  height: 100px;
+}
+.navbar > img {
+  width: 100px;
+  margin-left: 20px;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+#img {
+  width: 300px;
+}
+
+.linha {
+  width: 100%;
+}
+.column {
+  width: 15%;
+  height: 300px;
+  margin: auto;
+  border-radius: 20px;
+  background-color: #fff;
+  padding: 8px;
+}
+.column > img {
+  width: 100%;
+  height: 50%;
+  border-radius: 20px;
+}
+.columns {
+  display: flex;
+}
+.row {
+  display: flex;
+  flex-direction: column;
+}
+.margin-top {
+  margin-top: 50px;
+}
+
+#img1 {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  border-radius: 20px;
+  width: 700px;
+  margin-bottom: 30px;
+}
+.li-column {
+  margin-left: 20px;
+  list-style: none;
+}
+.form {
+  width: 50%;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: #edc19f;
+  height: 346px;
+  color: black;
+  margin-top: 100px;
+  margin-left: 15px;
+}
+#text {
+  width: 50%;
+  text-align: center;
+}
+footer {
+  background-color: #9ab5cc;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+footer a {
+  text-decoration: none;
+  color: black;
+}
+.button {
+  background-color: #edc19f;
+  border-radius: 8px;
+  width: 100%;
+  padding: 5px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.5s;
+  position: relative;
+  bottom: -20px;
+}
+
+.button:hover {
+  background-color: pink;
+}
+.product-title {
+  height: 50px;
+  display: block;
+  font-weight: bolder;
+}
+.input {
+  border-radius: 8px;
+  border: none;
+  height: 40px;
+  margin-bottom: 10px;
+  margin-top: 5px;
+  padding-left: 2%;
+}
+.form-title {
+  text-align: center;
+  font-size: 18px;
+}
+#button {
+  border: none;
+  height: 30px;
+  width: 15%;
+  border-radius: 8px;
+  background-color: #fff;
+}
+#button:hover {
+  background-color: pink;
+}
+.value {
+  font-weight: bolder;
+}
+#linkedin {
+  width: 30px;
+  height: 30px;
+}
+#linkedin-container {
+  display: flex;
+  align-items: center;
+}
+@media (max-width: 600px) {
+  .columns {
+    flex-direction: column;
+  }
+  .column {
+    width: 50%;
+    height: 40%;
+  }
+  .mobile {
+    flex-direction: column;
+  }
+  #img1 {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 20px;
+  }
+  .form {
+    width: 88%;
+    margin-left: 5%;
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+  footer {
+    height: 200px;
+    padding-bottom: 30px;
+  }
+}
