@@ -1,1 +1,1 @@
-# LandingPage criada para cumprir o desafio dado pela Hiring Coders :)
+# LandingPage criada para cumprir o desafio dado pelo Hiring Coders :)
