@@ -160,12 +160,18 @@ footer a {
   }
   .form {
     width: 88%;
-    margin-left: 5%;
+    margin-left: none;
     margin-top: 20px;
     margin-bottom: 40px;
   }
   footer {
     height: 200px;
     padding-bottom: 30px;
+  }
+  #text {
+    width: 80%;
+  }
+  #button {
+    width: 100%;
   }
 }
